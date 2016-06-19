@@ -36,7 +36,7 @@ success = (msg) ->
     listener = {}
   oldListeners = null
   oldCommands = null
-  msg.send "Reloaded all scripts"
+  msg.send "I'm combat ready! :battery:"
 
 # ref: https://github.com/srobroek/hubot/blob/e543dff46fba9e435a352e6debe5cf210e40f860/src/robot.coffee
 deleteScriptCache = (scriptsBaseDir) ->
